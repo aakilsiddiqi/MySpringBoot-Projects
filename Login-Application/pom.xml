@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.login</groupId>
 	<artifactId>Login-Application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>Login-Application</name>
 	<description>Project Login Application with Security </description>
 	<properties>
@@ -54,6 +54,11 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.2.0</version>
 		</dependency>
 	</dependencies>
 
